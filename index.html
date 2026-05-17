@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MoveHelper — Polityka Prywatności</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f5; color: #333; }
+    .header { background: linear-gradient(135deg, #1a237e, #3949ab); color: white; padding: 40px 20px; text-align: center; }
+    .header h1 { font-size: 28px; margin-bottom: 8px; }
+    .header p { font-size: 14px; opacity: 0.8; }
+    .lang-switch { display: flex; justify-content: center; gap: 10px; margin: 20px; }
+    .lang-btn { padding: 8px 20px; border-radius: 20px; border: none; cursor: pointer; font-weight: bold; font-size: 14px; }
+    .lang-btn.active { background: #1a237e; color: white; }
+    .lang-btn:not(.active) { background: #e0e0e0; color: #333; }
+    .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+    .section { background: white; border-radius: 12px; padding: 24px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+    .section h2 { color: #1a237e; font-size: 18px; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+    .section p, .section li { font-size: 15px; line-height: 1.7; color: #555; margin-bottom: 8px; }
+    .section ul { padding-left: 20px; }
+    .highlight { background: #e8eaf6; border-left: 4px solid #1a237e; padding: 12px 16px; border-radius: 0 8px 8px 0; margin: 12px 0; }
+    .contact { background: #1a237e; color: white; border-radius: 12px; padding: 24px; text-align: center; margin-bottom: 20px; }
+    .contact a { color: #ffd700; }
+    .footer { text-align: center; padding: 20px; color: #999; font-size: 13px; }
+    .badge { background: #4caf50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 12px; margin-left: 8px; }
+    [data-lang] { display: none; }
+    [data-lang].visible { display: block; }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🌍 MoveHelper</h1>
+  <p id="header-sub">Polityka Prywatności / Datenschutzerklärung / Privacy Policy</p>
+</div>
+
+<div class="lang-switch">
+  <button class="lang-btn active" onclick="setLang('pl')">🇵🇱 Polski</button>
+  <button class="lang-btn" onclick="setLang('de')">🇩🇪 Deutsch</button>
+  <button class="lang-btn" onclick="setLang('en')">🇬🇧 English</button>
+</div>
+
+<!-- POLSKI -->
+<div data-lang="pl" class="visible">
+  <div class="container">
+    <div class="section">
+      <h2>📋 Informacje ogólne</h2>
+      <p>Niniejsza polityka prywatności dotyczy aplikacji mobilnej <strong>MoveHelper</strong>, przeznaczonej dla osób przeprowadzających się do Niemiec i Austrii.</p>
+      <p>Data ostatniej aktualizacji: <strong>1 czerwca 2025</strong></p>
+      <div class="highlight">
+        <strong>Twoja prywatność jest dla nas priorytetem.</strong> Aplikacja MoveHelper nie zbiera, nie przechowuje ani nie sprzedaje danych osobowych użytkowników.
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>📱 Jakie dane zbieramy?</h2>
+      <p>MoveHelper <strong>nie zbiera żadnych danych osobowych</strong>. Wszystkie dane są przechowywane lokalnie na Twoim urządzeniu:</p>
+      <ul>
+        <li>Historia tłumaczeń — przechowywana tylko lokalnie</li>
+        <li>Ulubione języki — przechowywane tylko lokalnie</li>
+        <li>Postęp w checkliście przeprowadzki — przechowywany tylko lokalnie</li>
+        <li>Ustawienia aplikacji — przechowywane tylko lokalnie</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🔗 Usługi zewnętrzne</h2>
+      <p>Aplikacja korzysta z następujących usług zewnętrznych:</p>
+      <ul>
+        <li><strong>MyMemory API</strong> — tłumaczenia tekstu (dane tekstowe są wysyłane do API, nie są przechowywane)</li>
+        <li><strong>OCR.Space API</strong> — rozpoznawanie tekstu z obrazów (tylko w wersji PRO, obrazy są przetwarzane i nie przechowywane)</li>
+        <li><strong>Google AdMob</strong> — wyświetlanie reklam (zbiera anonimowe dane do targetowania reklam zgodnie z polityką Google)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>📷 Uprawnienia aplikacji</h2>
+      <ul>
+        <li><strong>Kamera</strong> — tylko do skanowania dokumentów (PRO), zdjęcia nie są przechowywane</li>
+        <li><strong>Galeria</strong> — tylko do wyboru zdjęć do skanowania (PRO)</li>
+        <li><strong>Internet</strong> — do pobierania tłumaczeń i reklam</li>
+        <li><strong>Powiadomienia</strong> — opcjonalne przypomnienia o terminach urzędowych</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🛒 Zakupy w aplikacji</h2>
+      <p>Wersja PRO dostępna jest jako subskrypcja miesięczna (2,99€/miesiąc). Płatności są obsługiwane przez <strong>Google Play Billing</strong> — MoveHelper nie przetwarza ani nie przechowuje danych płatniczych.</p>
+    </div>
+
+    <div class="section">
+      <h2>👶 Dane dzieci</h2>
+      <p>Aplikacja MoveHelper nie jest przeznaczona dla dzieci poniżej 13 roku życia i świadomie nie zbiera danych od takich osób.</p>
+    </div>
+
+    <div class="section">
+      <h2>✅ Twoje prawa</h2>
+      <ul>
+        <li>Prawo dostępu do danych — wszystkie dane są na Twoim urządzeniu</li>
+        <li>Prawo do usunięcia — odinstaluj aplikację, aby usunąć wszystkie dane lokalne</li>
+        <li>Prawo do informacji — skontaktuj się z nami w razie pytań</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- DEUTSCH -->
+<div data-lang="de">
+  <div class="container">
+    <div class="section">
+      <h2>📋 Allgemeine Informationen</h2>
+      <p>Diese Datenschutzerklärung gilt für die mobile App <strong>MoveHelper</strong>, die für Personen entwickelt wurde, die nach Deutschland oder Österreich umziehen.</p>
+      <p>Letzte Aktualisierung: <strong>1. Juni 2025</strong></p>
+      <div class="highlight">
+        <strong>Deine Privatsphäre hat für uns Priorität.</strong> MoveHelper sammelt, speichert oder verkauft keine personenbezogenen Daten.
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>📱 Welche Daten sammeln wir?</h2>
+      <p>MoveHelper <strong>sammelt keine personenbezogenen Daten</strong>. Alle Daten werden lokal auf deinem Gerät gespeichert:</p>
+      <ul>
+        <li>Übersetzungsverlauf — nur lokal gespeichert</li>
+        <li>Lieblingssprachen — nur lokal gespeichert</li>
+        <li>Umzugs-Checklisten-Fortschritt — nur lokal gespeichert</li>
+        <li>App-Einstellungen — nur lokal gespeichert</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🔗 Drittanbieter-Dienste</h2>
+      <ul>
+        <li><strong>MyMemory API</strong> — Textübersetzung (Textdaten werden an die API gesendet, nicht gespeichert)</li>
+        <li><strong>OCR.Space API</strong> — Texterkennung aus Bildern (nur PRO, Bilder werden verarbeitet und nicht gespeichert)</li>
+        <li><strong>Google AdMob</strong> — Werbeanzeigen (sammelt anonyme Daten gemäß Google-Richtlinien)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>📷 App-Berechtigungen</h2>
+      <ul>
+        <li><strong>Kamera</strong> — nur zum Scannen von Dokumenten (PRO), Fotos werden nicht gespeichert</li>
+        <li><strong>Galerie</strong> — nur zur Auswahl von Bildern (PRO)</li>
+        <li><strong>Internet</strong> — für Übersetzungen und Werbung</li>
+        <li><strong>Benachrichtigungen</strong> — optionale Erinnerungen an Behördentermine</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🛒 In-App-Käufe</h2>
+      <p>Die PRO-Version ist als monatliches Abonnement verfügbar (2,99€/Monat). Zahlungen werden über <strong>Google Play Billing</strong> abgewickelt — MoveHelper verarbeitet keine Zahlungsdaten.</p>
+    </div>
+
+    <div class="section">
+      <h2>✅ Deine Rechte</h2>
+      <ul>
+        <li>Auskunftsrecht — alle Daten befinden sich auf deinem Gerät</li>
+        <li>Löschrecht — deinstalliere die App, um alle lokalen Daten zu löschen</li>
+        <li>Informationsrecht — kontaktiere uns bei Fragen</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ENGLISH -->
+<div data-lang="en">
+  <div class="container">
+    <div class="section">
+      <h2>📋 General Information</h2>
+      <p>This privacy policy applies to the <strong>MoveHelper</strong> mobile app, designed for people relocating to Germany or Austria.</p>
+      <p>Last updated: <strong>June 1, 2025</strong></p>
+      <div class="highlight">
+        <strong>Your privacy is our priority.</strong> MoveHelper does not collect, store or sell any personal data.
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>📱 What data do we collect?</h2>
+      <p>MoveHelper <strong>does not collect any personal data</strong>. All data is stored locally on your device:</p>
+      <ul>
+        <li>Translation history — stored locally only</li>
+        <li>Favourite languages — stored locally only</li>
+        <li>Moving checklist progress — stored locally only</li>
+        <li>App settings — stored locally only</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🔗 Third-party services</h2>
+      <ul>
+        <li><strong>MyMemory API</strong> — text translation (text data sent to API, not stored)</li>
+        <li><strong>OCR.Space API</strong> — text recognition from images (PRO only, images processed and not stored)</li>
+        <li><strong>Google AdMob</strong> — advertisements (collects anonymous data per Google policy)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>📷 App permissions</h2>
+      <ul>
+        <li><strong>Camera</strong> — only for document scanning (PRO), photos not stored</li>
+        <li><strong>Gallery</strong> — only for selecting images (PRO)</li>
+        <li><strong>Internet</strong> — for translations and ads</li>
+        <li><strong>Notifications</strong> — optional reminders for official deadlines</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🛒 In-app purchases</h2>
+      <p>The PRO version is available as a monthly subscription (€2.99/month). Payments are handled by <strong>Google Play Billing</strong> — MoveHelper does not process payment data.</p>
+    </div>
+
+    <div class="section">
+      <h2>✅ Your rights</h2>
+      <ul>
+        <li>Right of access — all data is on your device</li>
+        <li>Right to deletion — uninstall the app to delete all local data</li>
+        <li>Right to information — contact us with any questions</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- KONTAKT -->
+<div class="container">
+  <div class="contact">
+    <h2 style="color:white; margin-bottom:12px;">📧 Kontakt / Kontakt / Contact</h2>
+    <p style="margin-bottom:8px; opacity:0.9;">W razie pytań dotyczących prywatności:</p>
+    <p><a href="mailto:movehelper21@gmail.com">movehelper21@gmail.com</a></p>
+  </div>
+  <div class="footer">
+    <p>© 2025 MoveHelper. Wszelkie prawa zastrzeżone.</p>
+  </div>
+</div>
+
+<script>
+  function setLang(lang) {
+    document.querySelectorAll('[data-lang]').forEach(el => el.classList.remove('visible'));
+    document.querySelector('[data-lang="' + lang + '"]').classList.add('visible');
+    document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+    event.target.classList.add('active');
+  }
+</script>
+
+</body>
+</html>
